@@ -28,7 +28,7 @@ public class ClienteFibonacci {
                 PrintStream toServer = new PrintStream(client.getOutputStream());
                 BufferedReader fromServer = new BufferedReader(
                         new InputStreamReader(client.getInputStream()));
-                System.out.println("Introduzca un numero: ");
+                System.out.println("Digite un numero: ");
                 String num = sc.next();
                 toServer.println(num);
                 String result = fromServer.readLine();
