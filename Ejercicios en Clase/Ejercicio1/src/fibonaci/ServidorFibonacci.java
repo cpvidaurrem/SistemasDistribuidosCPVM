@@ -24,8 +24,7 @@ public class ServidorFibonacci {
         ServerSocket server;
         try {
             server = new ServerSocket(port);
-            System.out.println(
-                    "Se inicio el servidor con exito");
+            System.out.println("Se inicio el servidor con exito");
             Socket client;
             PrintStream toClient;
             client = server.accept(); //conexion
