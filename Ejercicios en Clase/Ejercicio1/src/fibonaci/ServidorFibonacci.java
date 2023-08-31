@@ -31,6 +31,7 @@ public class ServidorFibonacci {
             client = server.accept(); //conexion
             BufferedReader fromClient = new BufferedReader(new InputStreamReader(client.getInputStream())); // el lector
             System.out.println("Cliente se conecto");
+            
             String cadena = fromClient.readLine();
             int n = Integer.parseInt(cadena);
             int f = Operacion.fibonaci(n);
