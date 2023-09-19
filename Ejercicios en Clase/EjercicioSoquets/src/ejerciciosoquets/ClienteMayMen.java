@@ -39,7 +39,7 @@ public class ClienteMayMen {
                     String num2 = sc.next();
                     System.out.println("Digite numero 3: ");
                     String num3 = sc.next();
-                    System.out.println("que operacion quiere: ");
+                    System.out.println("que operacion quiere(mayor-menor): ");
                     String op = sc.next();
 
                     String cadena = op + "-" + num1 + "-" + num2 + "-" + num3;

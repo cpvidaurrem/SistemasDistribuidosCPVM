@@ -1,0 +1,23 @@
+diploma
+ISEGIP
+iuniversidad
+resouesta
+segip
+servidorseduca
+servidorsegip
+servidoruniversidad
+universidad
+clienteuniversidad RMI
+
+
+
+Universidad es el clienteSegipRMI y clienteSeducaUDP y ClienteSereciTCP
+
+
+
+servidorUniversidad
+servidorsegip
+servidorseduca
+servidorsereci
+
+
